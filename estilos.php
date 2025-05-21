@@ -31,6 +31,7 @@ class Estilos {
         text-shadow: 0.2vh 0.2vw 15px antiquewhite;
         background-color: darkslategray;
         color: azure;
+        font-size: 19pt;
         
 }
 .calculadora {
@@ -50,13 +51,20 @@ class Estilos {
         align-items: center;
         height: 5vh;
         border: none;
-        border-radius: 0.2vw;
-        font-size: 17pt;
+        border-radius: 0.4vw;
+        font-size: 19pt;
         cursor: pointer;
         background-color: dimgray;
         text-shadow: 0vh 0vw 1px azure;
-        color: gray;
+        color: black;
         font-family: 'KG PDX Blocks', sans-serif;
+        transition: all 1s;
+}
+.btn:hover {
+        background-color: #0066cc;
+        text-shadow: 0vh 0vw 1px #008080;
+        color: #66ccff;
+        border: 0.3vw dashed dodgerblue;
 }
 </style>        
 STYLE;        
