@@ -9,7 +9,7 @@ class InterfazBotones {
     public function interfaz(): string {
         $vista = <<<HTML
 <section class="interfaz-calculadora">        
-<h4 class="pantalla" id="pantalla"><small>'Calcular' 00<hr>+, -, /, *...,</small></h4>        
+<h4 class="pantalla" id="pantalla"><small></small></h4>        
 <div class="calculadora">        
 <button class="btn" data-valor="7">7</button>
 <button class="btn" data-valor="8">8</button>

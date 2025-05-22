@@ -23,7 +23,7 @@ class Estilos {
 }
 .pantalla {
         width: 14vw;
-        height: 11vh;
+        height: 07vh;
         border-radius: 0.5vw;
         border: 0.3vw double cadetblue;
         padding: 0.5vh 1vw;
